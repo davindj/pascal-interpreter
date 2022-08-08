@@ -169,7 +169,7 @@ public class InputFrame extends javax.swing.JFrame {
         if(!fileName.equals(""))
         try {
             // TODO add your handling code here:
-            FileWriter fw = new FileWriter("PascalProject/" + fileName + ".txt");
+            FileWriter fw = new FileWriter("PascalProject/" + fileName + ".pas");
             fw.write(input.getText()); fw.close();            
             
             JOptionPane.showMessageDialog(null, "Save Succeed");
@@ -186,7 +186,7 @@ public class InputFrame extends javax.swing.JFrame {
         try {
             // TODO add your handling code here:
             String temp = "";
-            BufferedReader br = new BufferedReader(new FileReader("PascalProject/" + fileName +".txt"));
+            BufferedReader br = new BufferedReader(new FileReader("PascalProject/" + fileName +".pas"));
             String line = "";
             while ((line = br.readLine()) != null) {                
                 temp += line + "\n";
