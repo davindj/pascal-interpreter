@@ -19,7 +19,7 @@
 _notes: you can view syntax examples in PascalInterpreter/PascalProject/ directory._
 
 ## Software & Library requirement
-This is recommended tools and software to run this project.
+These are recommended tools and software to run this project.
 - [Netbeans IDE](https://netbeans.apache.org/)
 - [JDK 17](https://www.oracle.com/java/technologies/downloads/#java17)
 - [JUnit 4](https://junit.org/junit4/)
